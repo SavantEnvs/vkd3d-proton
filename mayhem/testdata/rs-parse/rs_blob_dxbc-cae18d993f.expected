@@ -1,0 +1,41 @@
+Root signature: cf3e4d633cea6991
+Flags:
+  CBV_SRV_UAV_HEAP_DIRECTLY_INDEXED
+  [0] (visibility #1) || RootUAV (u2, space1)
+  [1] (visibility #0) || RootSRV (t4, space3)
+    DATA_STATIC
+  [2] (visibility #5) || RootCBV (b6, space5)
+    DATA_STATIC
+  [3] (visibility #4) || 32BIT_CONSTANTS (b10, space9), Num32BitWords = 2
+  [4] (visibility #0) || TABLE
+    CBV (b1, space10) count 2, offset 3
+      DATA_STATIC
+    UAV (u1, space10) count 2, offset 3
+      DESCRIPTORS_VOLATILE
+      DATA_VOLATILE
+StaticSampler (s0, space0):
+  Filter: #0
+  AddrU: #1
+  AddrV: #3
+  AddrW: #1
+  MipLODBias: 0.000000
+  MaxAniso: 0
+  Comparison: #0
+  StaticBorderColor: #0
+  MinLOD: 0.000000
+  MaxLOD: 0.000000
+  Visibility: #5
+  Flags: #0
+StaticSampler (s0, space3):
+  Filter: #1
+  AddrU: #1
+  AddrV: #1
+  AddrW: #4
+  MipLODBias: 1.000000
+  MaxAniso: 0
+  Comparison: #0
+  StaticBorderColor: #3
+  MinLOD: 0.000000
+  MaxLOD: 10.000000
+  Visibility: #0
+  Flags: #1

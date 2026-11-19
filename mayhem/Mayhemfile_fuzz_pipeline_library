@@ -1,0 +1,9 @@
+project: savantenvs/vkd3d-proton
+target: fuzz_pipeline_library
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_pipeline_library/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_pipeline_library
+    libfuzzer: true
+    timeout: 10

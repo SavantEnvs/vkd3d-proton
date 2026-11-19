@@ -1,0 +1,4 @@
+Root signature: cc11025f78c28494
+Flags:
+  DENY_VERTEX_SHADER_ROOT_ACCESS
+  [0] (visibility #0) || RootSRV (t13, space0)

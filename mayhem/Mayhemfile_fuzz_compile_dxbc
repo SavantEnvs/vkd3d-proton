@@ -1,0 +1,9 @@
+project: savantenvs/vkd3d-proton
+target: fuzz_compile_dxbc
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_compile_dxbc/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_compile_dxbc
+    libfuzzer: true
+    timeout: 10

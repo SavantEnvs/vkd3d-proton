@@ -1,0 +1,5 @@
+Root signature: 0809721ad9ee9b61
+Flags:
+  DENY_VERTEX_SHADER_ROOT_ACCESS
+  [0] (visibility #0) || RootSRV (t13, space0)
+    DATA_VOLATILE

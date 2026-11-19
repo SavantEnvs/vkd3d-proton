@@ -1,0 +1,7 @@
+Root signature: f15f46e6379ab290
+Flags:
+  [0] (visibility #1) || RootCBV (b4, space1)
+  [1] (visibility #0) || RootSRV (t13, space0)
+    DATA_STATIC
+  [2] (visibility #0) || RootUAV (u6, space0)
+    DATA_STATIC_WHILE_SET_AT_EXECUTE

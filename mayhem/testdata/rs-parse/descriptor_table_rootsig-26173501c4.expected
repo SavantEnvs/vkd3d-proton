@@ -1,0 +1,12 @@
+Root signature: cb5c53f21686f371
+Flags:
+  [0] (visibility #0) || TABLE
+    CBV (b1, space7) count 1, offset 4294967295
+      DESCRIPTORS_VOLATILE
+      DATA_VOLATILE
+    SRV (t16, space0) count 8, offset 4294967295
+      DESCRIPTORS_VOLATILE
+      DATA_VOLATILE
+    UAV (u3, space0) count 4294967295, offset 44
+      DESCRIPTORS_VOLATILE
+      DATA_VOLATILE
