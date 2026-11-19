@@ -1,0 +1,4 @@
+Root signature: c79e045c89df6007
+Flags:
+  [0] (visibility #0) || 32BIT_CONSTANTS (b4, space0), Num32BitWords = 3
+  [1] (visibility #0) || 32BIT_CONSTANTS (b5, space3), Num32BitWords = 4

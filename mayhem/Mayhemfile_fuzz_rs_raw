@@ -1,0 +1,9 @@
+project: savantenvs/vkd3d-proton
+target: fuzz_rs_raw
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_rs_raw/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_rs_raw
+    libfuzzer: true
+    timeout: 10

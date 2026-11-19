@@ -1,0 +1,15 @@
+Root signature: d75425f2c4ae0ccf
+Flags:
+StaticSampler (s4, space0):
+  Filter: #55
+  AddrU: #1
+  AddrV: #1
+  AddrW: #1
+  MipLODBias: 0.000000
+  MaxAniso: 16
+  Comparison: #4
+  StaticBorderColor: #2
+  MinLOD: 0.000000
+  MaxLOD: 340282346638528859811704183484516925440.000000
+  Visibility: #0
+  Flags: #0
